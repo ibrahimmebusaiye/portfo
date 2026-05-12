@@ -84,6 +84,13 @@ DATABASES = {
     }
 }
 
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+EMAIL_HOST_USER = "ibytechsolution01@gmail.com"
+EMAIL_HOST_PASSWORD = "Ibytech184943*#ACF"
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
