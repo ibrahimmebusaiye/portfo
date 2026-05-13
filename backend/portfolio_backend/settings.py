@@ -90,7 +90,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = "ibytechsolution01@gmail.com"
-EMAIL_HOST_PASSWORD = "Ibytech184943*#ACF"
+EMAIL_HOST_PASSWORD = "pmuj ioxu mpra lyne"
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
