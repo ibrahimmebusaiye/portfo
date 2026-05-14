@@ -5,6 +5,15 @@ import json
 from .models import ContactMessage
 from django.core.mail import send_mail
 
+from django.contrib.auth.models import User
+
+def create_admin():
+    if not User.objects.filter(username="admin").exists():
+        User.objects.create_superuser(
+            username="Ibytech001",
+            email="ibytechsolution01@gmail.com",
+            password="Ibytech184943*#ACF"
+        )
 
 @csrf_exempt
 def contact_view(request):
